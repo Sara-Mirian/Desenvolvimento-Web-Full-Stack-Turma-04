@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<cabeçalho>
+		<meta charset="utf-8">
+		<title>Calculadora</title>		
+		<script src="calculadora.js"></script>
+	</cabeçalho>
+	<corpo bgcolor="bege">
+		<h1>Calculadora 1.0</h1>
+		<tipo de entrada="texto" id="txtValor1">
+			<select id="operadores" onchange="ControleDeSelecao();">
+				<optgroup label="Básico">
+					<opção valor="+"> +(somar)</opção>
+					<opção valor="-"> -(subtrair)</opção>
+					<option value="*"> *(multiplicar)</option>
+					<option value="/"> /(dividir)</option>
+				</optgroup>
+				<optgroup label="Outros">
+					<opção valor="raiz"> Raiz </opção>
+					<option value="potência"> Potência</option>
+					<option value="fatorial"> Fatorial</option>
+					<opção valor="fibonacci">Fibonaci</opção>					
+					<option value="porcento"> Porcentagem</option>
+					<option value="media"> Média</option>
+					<option value="calc"> Desenvolver Calc</option>
+				</optgroup>
+			</selecionar>
+		<tipo de entrada="texto" id="txtValor2" tamanho="5"><br>		
+		<input type="button" onclick="Calcular('txtValor1', 'txtValor2')" valor="Calcular">
+		<tipo de entrada="botão" onclick="Limpar('txtValor1', 'txtValor2')" valor="Limpar">
+		<p id="saida">Resultado:</p>
+		<hr>		
+	</corpo>
+</html>
