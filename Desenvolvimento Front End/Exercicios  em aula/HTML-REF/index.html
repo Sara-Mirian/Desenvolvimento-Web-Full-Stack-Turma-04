@@ -95,6 +95,70 @@
                 <div class="flex-item">Item 03</div>
             </div>
         </section>
+        <section>
+            <h2>Forms e inputs</h2>
+            <div class="card-body">
+                <h2>Formulário de login</h2>
+                <form method="post" class="form">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="digite seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email:">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="exemplo@digital.com" required>
+                    </div>
+                    <div class="form-group">
+                        <a href="sumbit" class="button">Enviar</a>
+                    </div>
+                </form>
+                
+                <h2>Input radio</h2>
+                <form>
+                    <div class="form-group">
+                        <input type="radio" name="Opção 01" id="Opção 01">
+                        <label for="Opção 01">Opção 01</label>
+
+                    </div>
+                    <div class="form-group">
+                        <input type="radio" name="Opção 02" id="Opção 02">
+                        <label for="Opção 02">Opção 02</label>
+
+                    </div>
+                    <div class="form-group">
+                        <input type="radio" name="Opção 03" id="Opção 03">
+                        <label for="Opção 03">Opção 03</label>
+
+                    </div>
+                    <div class="form-group">
+                        <input type="radio" name="Opção 04" id="Opção 04">
+                        <label for="Opção 04">Opção 04</label>
+                    </div>
+                 </form>
+                    <h2>Input cores</h2>
+                    <form >
+                        <div class="form-group">
+                            <input type="color" name="color" id="color" value="#FF0000">
+                            <label for="color">Color</label>
+                        </div>
+                    </form>
+
+                    <h2>Input controle de faixa</h2>
+                    <form >
+                        <div class="form-group">
+                            <label for="range">Volume:</label>
+                            <input type="range" name="range" min="0" max="10">
+                        </div>
+                    </form>
+                    <form >
+                        <div class="form-group">
+                           <label for="filr">Escolha um arquivo:</label> 
+                           <input type="file" name="file" id="file" accept=".pdf,.docx"> 
+                        </div>
+                    </form>
+                
+            </div>
+        </section>
     </div>
     
 </body>
