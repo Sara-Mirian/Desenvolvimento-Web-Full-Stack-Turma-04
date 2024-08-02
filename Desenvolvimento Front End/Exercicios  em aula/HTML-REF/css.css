@@ -89,7 +89,7 @@ th {
     justify-content: space-between;
 }
 
-.form {
+form {
     background-color: white;
     padding: 0;
     display: flex;
@@ -120,7 +120,6 @@ input[type="email"] {
 }
 input[type="text"]:focus,
 input[type="email"]:focus {
-    border-color: azure;
+    border-color: rgb(91, 4, 204);
     outline: none;
-    
 }
