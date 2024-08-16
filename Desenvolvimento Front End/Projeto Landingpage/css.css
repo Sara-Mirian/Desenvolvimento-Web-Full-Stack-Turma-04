@@ -1,12 +1,81 @@
-body{
-    margin: 200px;
+body {
+    font-family:url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+}
+header {
+    background-image: url("img/Legumes.jpg");
+    width: 1920px;
+    height: 400px;
+}
+.logo {
+    width: 115px;
+    height: 41px;
+    margin-left: 20px ;
+    margin-top: 20px;
+}
+.abaSuperior ul li{
+    display: flex;
+    justify-content: flex-end;
+    float:right ;
+    margin-right: 20px;
+    flex-direction: row;
+}
+
+.AbaInferior {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.AbaInferior ul li { 
+    display: flex;
+    justify-content: flex-end;
+    float:left ;
+    margin-right: 20px;
+    flex-direction: row;
+}
+main  {
+   margin: 10% ;
 }
 
 
-
-hr{
-    height: 1px;
+#hr1 {
+    height: 5px ;
     width: 100px;
-    background-color: red;
+    background-color: rgb(60,184 ,21);
     border: none;
-    }
+    border-radius: 10px;
+}   
+#hr2 {
+    height: 6px ;
+    width: 150px;
+    background-color: rgb(246,80 ,5);
+    border: none;
+    border-radius: 10px;
+}
+.TituloDoConteudo {
+  text-align: center;
+  padding-bottom: 2%;
+}
+.lado { 
+   
+}  
+.endereco {
+    background-color: rgb(60,184 ,21);
+    width: 650px;
+    padding: 2%;
+    color: white;
+}
+.endereco h1{
+    font-size: 30px;
+    font-style: italic;
+}
+.contatoCliente {
+   
+}
+footer {
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+.footer {
+    display: inline-block;
+    justify-items: flex-end;
+    vertical-align: top;
+}
